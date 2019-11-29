@@ -147,10 +147,75 @@ body {
 /*              Form box              */
 /*------------------------------------*/
 
-#form-box{
+#form-box {
   margin: 0 auto;
   width: 380px;
-  padding: 30;
+  padding: 30px;
   border: 1px solid #c7c7c7;
   background-color: white;
+}
+
+#create-acc-text {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+}
+
+#one-acc-text {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#one-acc-text a {
+  color: #0077c5;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.label-style {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+  display: block;
+}
+
+.input-container {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 320px;
+  height: 34px;
+}
+
+.input-style {
+  color: #000;
+  font-size: 1.2em;
+  width: 320px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: 34px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  display: block;
 }
