@@ -21,9 +21,6 @@ body {
   font-size: 12px;
 }
 
-#sign-in-container {
-}
-
 #already-account {
   text-align: right;
   color: #505050;
@@ -86,6 +83,7 @@ body {
 }
 #list-container ul {
   text-align: center;
+  padding-inline-start: 0px;
 }
 
 #icon-mint {
@@ -143,4 +141,16 @@ body {
   display: inline-block;
   list-style: none;
   list-style-image: none;
+}
+
+/*------------------------------------*/
+/*              Form box              */
+/*------------------------------------*/
+
+#form-box{
+  margin: 0 auto;
+  width: 380px;
+  padding: 30;
+  border: 1px solid #c7c7c7;
+  background-color: white;
 }
