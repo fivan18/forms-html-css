@@ -1,0 +1,39 @@
+body {
+  background: #eceef1;
+}
+
+/*------------------------------------*/
+/*              Title Menu            */
+/*------------------------------------*/
+
+#sign-in-wrapper {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  height: 60px;
+  padding: 10px 30px;
+  background: #eceef1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+#sign-in-container {
+}
+
+#already-account {
+}
+
+#forgot-user {
+}
+
+#sign-in-btn {
+  font-size: 1.125em;
+  font-weight: normal;
+}
+
+#lock-img {
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
+}
