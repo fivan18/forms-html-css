@@ -42,25 +42,29 @@
           Already have an account? <a href="">Sign In </a>
         </div>
 
-
         <div class="label-wrapper">
-          <label class="label-style"> Email address </label>
+          <label for="email" class="label-style"> Email address </label>
           <div class="input-container">
-            <input class="input-style" type="email" />
+            <input id="email" class="input-style" type="email" />
           </div>
         </div>
 
-        <label>
-          Phone (recommended) <br />
-          <input type="number" /> <br />
-          <span>Standard call, messaging or data rates may apply.</span>
-        </label>
-        <br />
-        <label>
-          Password <br />
-          <input type="password" />
-        </label>
-        <br />
+        <div class="label-wrapper">
+          <label for="number" class="label-style"> Phone (recommended) </label>
+          <div class="input-container">
+            <input id="number" class="input-style" type="number" />
+          </div>
+          <span class="input-info-text"
+            >Standard call, messaging or data rates may apply.</span
+          >
+        </div>
+
+        <div class="label-wrapper">
+          <label for="password" class="label-style"> Password </label>
+          <input id="password" class="input-style" type="password" />
+          <span id="icon-open-lock"> </span>
+        </div>
+
         <button type="submit">
           <span></span>
           <span>Create Account</span>
@@ -75,6 +79,7 @@
           >
         </div>
       </form>
+
       <section id="captcha-privacy"></section>
     </section>
 
