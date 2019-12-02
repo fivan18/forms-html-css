@@ -348,6 +348,46 @@ form {
 /*------------------------------------*/
 
 #legal-secutity {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(70, 70, 70);
   margin: 0 42px;
   padding: 20px 0;
+  line-height: 1.5;
+  text-align: center;
+
+  width: 90%;
+}
+
+#top-row {
+  margin: 0 auto;
+}
+#top-row ul {
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+#top-row li {
+  display: inline-block;
+  list-style: none;
+  list-style-image: none;
+  padding-left: 10px;
+}
+
+#top-row a {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+#top-row a:hover {
+  text-decoration: underline;
+}
+
+.text-disclaimer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
