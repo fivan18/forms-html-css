@@ -3,13 +3,18 @@ body {
   margin: 0;
 }
 
-/*------------------------------------*/
+h2 {
+  display: none;
+}
+
+/* ---------------------------------- */
+
 /*              Title Menu            */
-/*------------------------------------*/
+
+/* ---------------------------------- */
 
 #sign-in-wrapper {
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   height: 60px;
   padding: 10px 30px;
@@ -74,64 +79,66 @@ body {
   height: 35px;
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new.png);
   background-position: 0 0;
-
   margin: 0 auto;
 }
 
 #list-container {
   margin: 0 auto;
 }
+
 #list-container ul {
   text-align: center;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }
 
 #icon-mint {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/mint-favicon.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/mint-favicon.svg)
     no-repeat;
   width: 23px;
   height: 23px;
-
   margin-right: 4px;
 }
+
 #mint {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/mint-text.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/mint-text.svg)
     no-repeat;
   width: 37px;
   height: 20px;
-
   margin-right: 9px;
 }
 
 #icon-quick {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/quickbooks-favicon@2x.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/quickbooks-favicon@2x.svg)
     no-repeat;
   width: 23px;
   height: 23px;
-
   margin-right: 4px;
 }
 
 #quick {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/quick-books-text.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/quick-books-text.svg)
     no-repeat;
   width: 98px;
   height: 22px;
-
   margin-right: 9px;
 }
 
 #icon-turbo {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/tt-favicon@2x.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/tt-favicon@2x.svg)
     no-repeat;
   width: 23px;
   height: 23px;
-
   margin-right: 4px;
 }
 
 #turbo {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/turbo-tax-text.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/turbo-tax-text.svg)
     no-repeat;
   width: 74px;
   height: 22px;
@@ -143,13 +150,14 @@ body {
   list-style-image: none;
 }
 
-/*------------------------------------*/
-/*              Form box              */
-/*------------------------------------*/
+/* ---------------------------------- */
 
-form{
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-  sans-serif;
+/*              Form box              */
+
+/* ---------------------------------- */
+
+form {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -159,15 +167,14 @@ form{
   width: 380px;
   padding: 30px;
   border: 1px solid #c7c7c7;
+  border-bottom: 0;
   background-color: white;
-
   box-sizing: border-box;
   overflow: visible;
 }
 
 #create-acc-text {
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #4c4c4c;
   line-height: 1.1;
@@ -177,8 +184,7 @@ form{
 }
 
 #one-acc-text {
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4c4c4c;
   font-size: 14px;
   font-weight: 300;
@@ -199,8 +205,7 @@ form{
 }
 
 .label-style {
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #404040;
   font-size: 14px;
@@ -210,8 +215,7 @@ form{
 }
 
 .input-container {
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   width: 320px;
@@ -234,13 +238,13 @@ form{
 .label-wrapper {
   margin-bottom: 30px;
 }
-#password-wrapper{
-  margin-bottom: 0px;
+
+#password-wrapper {
+  margin-bottom: 0;
 }
 
 .input-info-text {
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   padding: 5px 0;
   font-size: 10px;
@@ -257,55 +261,131 @@ form{
   left: 290px;
 }
 
-#b-submit{
+#b-submit {
   background: #0077c5;
   border-radius: 4px;
   border: 1px solid #0077c5;
   width: 100%;
   height: 44px;
   color: white;
-
   margin-bottom: 40px;
 }
 
-#b-submit-icon{
+#b-submit-icon {
   display: inline-block;
   height: 1em;
-  width: .8em;
-
+  width: 0.8em;
   margin-top: 0;
   margin-right: 4px;
   vertical-align: text-top;
-
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-#submit-text{
+#submit-text {
   display: inline-block;
   font-size: 16px;
   text-transform: capitalize;
   margin-top: 0;
-  
 }
 
-#message-account{
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-  sans-serif;
+#message-account {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 12px;
-  color: rgb(106,106,106);  
+  color: rgb(106, 106, 106);
   font-style: italic;
   text-align: center;
-
   line-height: 1.5;
 }
- 
-#message-account a{
+
+#message-account a {
   text-decoration: none;
-  color: rgb(0,110,184);
+  color: rgb(0, 110, 184);
 }
-#message-account a:hover{
+
+/* ---------------------------------- */
+
+/*              CAPTCHA provacy       */
+
+/* ---------------------------------- */
+
+#captcha-privacy {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #8d9096;
+  margin: 0 auto;
+  width: 380px;
+  border: 1px solid #c7c7c7;
+  border-top: 0;
+  background: #eceef1;
+  box-sizing: border-box;
+  overflow: visible;
+  padding: 16px;
+  text-align: center;
+}
+
+#captcha-privacy a {
+  text-decoration: none;
+  color: rgb(0, 110, 184);
+}
+
+/* ---------------------------------- */
+
+/*              footer                */
+
+/* ---------------------------------- */
+
+#legal-secutity {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(70, 70, 70);
+  padding: 20px 0;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#top-row {
+  margin: 0 auto;
+}
+
+#top-row ul {
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+#top-row li {
+  display: inline-block;
+  list-style: none;
+  list-style-image: none;
+  padding-left: 10px;
+}
+
+#top-row a {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+
+.text-disclaimer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+#message-account a:hover {
+  text-decoration: underline;
+}
+
+#captcha-privacy a:hover {
+  text-decoration: underline;
+}
+
+#top-row a:hover {
   text-decoration: underline;
 }
