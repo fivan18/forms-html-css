@@ -33,7 +33,53 @@
       </section>
     </header>
     <section id="form-box">
-      <form action="" id="account-creation"></form>
+      <form action="" id="account-creation">
+        <legend id="create-acc-text">Create an Intuit account</legend>
+        <div id="one-acc-text">
+          One account for everything Intuit, including Mint.
+          <br />
+          <a href="">Learn more</a><br />
+          Already have an account? <a href="">Sign In </a>
+        </div>
+
+        <div class="label-wrapper">
+          <label for="email" class="label-style"> Email address </label>
+          <div class="input-container">
+            <input id="email" class="input-style" type="email" />
+          </div>
+        </div>
+
+        <div class="label-wrapper">
+          <label for="number" class="label-style"> Phone (recommended) </label>
+          <div class="input-container">
+            <input id="number" class="input-style" type="number" />
+          </div>
+          <span class="input-info-text"
+            >Standard call, messaging or data rates may apply.</span
+          >
+        </div>
+
+        <div class="password-wrapper">
+          <label for="password" class="label-style"> Password </label>
+          <input id="password" class="input-style" type="password" />
+          <span id="icon-open-lock"> </span>
+        </div>
+
+        <button id="b-submit" type="submit">
+          <span id="b-submit-icon"></span>
+          <span id="submit-text">Create Account</span>
+        </button>
+
+        <div id="message-account">
+          By clicking Create account, you agree to our <br />
+          <a href="">Terms</a> and have read and acknowledge our
+          <a href=""
+            >Privacy <br />
+            Statement.</a
+          >
+        </div>
+      </form>
+
       <section id="captcha-privacy"></section>
     </section>
 
